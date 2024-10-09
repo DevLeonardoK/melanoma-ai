@@ -1,13 +1,19 @@
-import * as S from "./styles";
+import styled from "styled-components";
+export const SContainer = styled.div`
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: red;
+`;
 
 export const Container = () => {
   return (
     <>
-      <S.Container>
-        <S.Section>
-          <S.Text>Olá TESTE</S.Text>
-        </S.Section>
-      </S.Container>
+      <SContainer></SContainer>
     </>
   );
 };
