@@ -1,5 +1,7 @@
 import styled from "styled-components";
-export const SContainer = styled.div`
+import backgroundInitial from "./img/backgroundImage.jpg"
+
+export const InitialContainer = styled.div`
   text-align: center;
   width: 100%;
   margin: 0;
@@ -7,13 +9,17 @@ export const SContainer = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: red;
+  // background-color: black
+  background-image: url(${backgroundInitial});
+  background-repeat: no-repeat;
+  background-size: cover;
+
 `;
 
 export const Container = () => {
   return (
     <>
-      <SContainer></SContainer>
+      <InitialContainer></InitialContainer>
     </>
   );
 };

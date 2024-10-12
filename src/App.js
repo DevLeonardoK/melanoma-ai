@@ -1,17 +1,14 @@
 import "./App.css";
 import React from "react";
-import { SContainer } from "./components/Container";
+import { InitialContainer } from "./components/Container";
 import { SectionInitial } from "./components/PageInitial";
 
 function App() {
   return (
     <div className="App">
-      <SContainer>
+      <InitialContainer>
         <SectionInitial></SectionInitial>
-      </SContainer>
-      <SContainer>
-        {/* <SectionInitial></SectionInitial> tirar comentario volta ao normal */}
-      </SContainer>
+      </InitialContainer>
     </div>
   );
 }
