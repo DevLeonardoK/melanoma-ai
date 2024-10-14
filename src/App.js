@@ -1,7 +1,9 @@
 import "./App.css";
 import React from "react";
-import { InitialContainer } from "./components/Container";
+import { InitialContainer } from "./components/InitialContainer";
 import { SectionInitial } from "./components/PageInitial";
+import { WelcomeContainer } from "./components/WelcomeContainer";
+import { WelcomePage } from "./components/WelcomePage";
 
 function App() {
   return (
@@ -9,6 +11,11 @@ function App() {
       <InitialContainer>
         <SectionInitial></SectionInitial>
       </InitialContainer>
+      <WelcomeContainer>
+        <WelcomePage></WelcomePage>
+
+      </WelcomeContainer>
+      
     </div>
   );
 }
