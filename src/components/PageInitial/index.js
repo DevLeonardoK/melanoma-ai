@@ -8,11 +8,10 @@ export const Section = styled.section`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
   gap: 15px;
   position: absolute;
-
 `;
 
 export const Text = styled.h1`
@@ -30,15 +29,15 @@ export const NameText = styled.h2`
   font-size: 20px;
   letter-spacing: 3px;
   text-shadow: 1px 1px 15px black;
-`
+`;
 
 export const SectionInitial = () => {
   return (
     <>
       <Section>
         <Text>
-        Deetecção de melanomas extensivos superficiais realizada pela IA 
-(Redes Neurais Convulacionais Profundas)
+          Deetecção de melanomas extensivos superficiais realizada pela IA
+          (Redes Neurais Convulacionais Profundas)
         </Text>
         <NameText>ISABELLY HELOISA MARQUES E JÚLIA CALCAGNO MAYER </NameText>
       </Section>

@@ -4,6 +4,8 @@ import { InitialContainer } from "./components/InitialContainer";
 import { SectionInitial } from "./components/PageInitial";
 import { WelcomeContainer } from "./components/WelcomeContainer";
 import { WelcomePage } from "./components/WelcomePage";
+import { AboutContainer } from "./components/AboutContainer";
+import { AboutPage } from "./components/AboutPage";
 
 function App() {
   return (
@@ -13,9 +15,10 @@ function App() {
       </InitialContainer>
       <WelcomeContainer>
         <WelcomePage></WelcomePage>
-
       </WelcomeContainer>
-      
+      <AboutContainer>
+        <AboutPage></AboutPage>
+      </AboutContainer>
     </div>
   );
 }

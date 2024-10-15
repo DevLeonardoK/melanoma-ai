@@ -3,3 +3,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+.TextTitle {
+  color: red;
+}
