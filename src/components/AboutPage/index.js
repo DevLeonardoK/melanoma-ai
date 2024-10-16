@@ -1,4 +1,16 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+import imgAbout from "./img/imgAbout.jpeg";
+
+const showIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+`;
 
 export const AboutSection = styled.section`
   width: 40%;
@@ -7,11 +19,35 @@ export const AboutSection = styled.section`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  animation: ${showIn} ease;
+  animation-timeline: view();
+  animation-range: entry 15% cover 50%;
 `;
 
 export const AboutSectionImage = styled.section`
   width: 40%;
-  min-height: 60vh;
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`;
+
+export const ImageArea = styled.img`
+  width: 600px;
+  min-height: 390px;
+  margin-top: 2.5em;
+`;
+
+export const ImageText = styled.p`
+  width: 600px;
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Carlito";
+  color: #623e2a;
+  border: 1px solid black;
 `;
 
 export const TitleTextSection = styled.section`
@@ -66,7 +102,10 @@ export const AboutPage = () => {
           Profunda para a detecção dos melanomas extensivos superficiais.
         </AboutInfoText>
       </AboutSection>
-      <AboutSectionImage></AboutSectionImage>
+      <AboutSectionImage>
+        <ImageArea src={imgAbout}></ImageArea>
+        <ImageText>Isabelly Heloísa Marques e Júlia Calcagno Mayer</ImageText>
+      </AboutSectionImage>
     </>
   );
 };
