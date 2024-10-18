@@ -6,6 +6,8 @@ import { WelcomeContainer } from "./components/WelcomeContainer";
 import { WelcomePage } from "./components/WelcomePage";
 import { AboutContainer } from "./components/AboutContainer";
 import { AboutPage } from "./components/AboutPage";
+import { ExplicationContainer } from "./components/ExplicationContainer";
+import { ExplicationPage } from "./components/ExplicationPage";
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
       <AboutContainer>
         <AboutPage></AboutPage>
       </AboutContainer>
+      <ExplicationContainer>
+        <ExplicationPage></ExplicationPage>
+      </ExplicationContainer>
     </div>
   );
 }
