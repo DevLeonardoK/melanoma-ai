@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/melanoma-ai/static/css/main.0b5d2914.css",
+    "main.js": "/melanoma-ai/static/js/main.9b9247e4.js",
+    "static/media/imgAbout.jpeg": "/melanoma-ai/static/media/imgAbout.22f3634c1314f3c86f1c.jpeg",
+    "static/media/imgMelanoma2.jpeg": "/melanoma-ai/static/media/imgMelanoma2.fb037942af521eadc997.jpeg",
+    "static/media/backgroundImage.jpg": "/melanoma-ai/static/media/backgroundImage.fe77eaef67e1ed70734f.jpg",
+    "static/media/imgMelanoma1.jpeg": "/melanoma-ai/static/media/imgMelanoma1.dcf140d9047a2079063a.jpeg",
+    "index.html": "/melanoma-ai/index.html",
+    "main.0b5d2914.css.map": "/melanoma-ai/static/css/main.0b5d2914.css.map",
+    "main.9b9247e4.js.map": "/melanoma-ai/static/js/main.9b9247e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b5d2914.css",
+    "static/js/main.9b9247e4.js"
+  ]
+}
