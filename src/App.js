@@ -10,6 +10,9 @@ import { ExplicationContainer } from "./components/ExplicationContainer";
 import { ExplicationPage } from "./components/ExplicationPage";
 import { BenefectsContainer } from "./components/BenefectsContainer";
 import { BenefectsPage } from "./components/BenefectsPage";
+import { ResultsContainer } from "./components/ResultsContainer";
+import { ResultsPage } from "./components/ResultsPage";
+
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
       <BenefectsContainer>
         <BenefectsPage></BenefectsPage>
       </BenefectsContainer>
+      <ResultsContainer>
+        <ResultsPage></ResultsPage>
+      </ResultsContainer>
     </div>
   );
 }

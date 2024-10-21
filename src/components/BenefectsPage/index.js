@@ -41,13 +41,14 @@ export const BenefectAreaInfo = styled.section`
 `;
 
 export const BenefectAreaInfoImg = styled.img`
-  width: 350px;
-  height: 250px;
+  width: 380px;
+  height: 270px;
   border: 1px solid black;
+  border-radius: 5px;
 `;
 
 export const BenefectAreaText = styled.section`
-  width: 70%;
+  width: 93%;
   border: 1px solid black;
   min-height: 240px;
   display: flex;
@@ -55,6 +56,7 @@ export const BenefectAreaText = styled.section`
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  border-radius: 5px;
 `;
 
 export const BenefectAreaInfoTitleText = styled.h3`
@@ -107,6 +109,7 @@ export const BenefectsPage = () => {
               <BenefectAreaInfoTitleText>
                 Aprimoramento do sistema de saúde
               </BenefectAreaInfoTitleText>
+              {/* <BenefectAreaInfoTitleText>saúde</BenefectAreaInfoTitleText> */}
               <BenefectAreaInfoText>
                 Este recurso tem a finalidade restrita de ser utilizado por
                 médicos, pois foram utilizadas imagens as quais somente estes
