@@ -8,6 +8,8 @@ import { AboutContainer } from "./components/AboutContainer";
 import { AboutPage } from "./components/AboutPage";
 import { ExplicationContainer } from "./components/ExplicationContainer";
 import { ExplicationPage } from "./components/ExplicationPage";
+import { BenefectsContainer } from "./components/BenefectsContainer";
+import { BenefectsPage } from "./components/BenefectsPage";
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
       <ExplicationContainer>
         <ExplicationPage></ExplicationPage>
       </ExplicationContainer>
+      <BenefectsContainer>
+        <BenefectsPage></BenefectsPage>
+      </BenefectsContainer>
     </div>
   );
 }
