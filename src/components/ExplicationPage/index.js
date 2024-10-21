@@ -62,14 +62,14 @@ export const InformationButton = styled.button`
 
 export const PageOne = styled.section`
   width: 75%;
-  height: 70vh;
+  height: 85vh;
   background-color: #f4f1ed;
   border: 1px solid black;
   display: none;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 70px;
+  gap: 35px;
   border-radius: 10px;
 `;
 
