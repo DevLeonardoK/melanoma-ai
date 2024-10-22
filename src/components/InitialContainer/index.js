@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundInitial from "./img/backgroundImage.jpg"
+import backgroundInitial from "./img/2.jpg";
 
 export const InitialContainer = styled.div`
   text-align: center;
@@ -13,7 +13,6 @@ export const InitialContainer = styled.div`
   background-image: url(${backgroundInitial});
   background-repeat: no-repeat;
   background-size: cover;
-
 `;
 
 export const Container = () => {
