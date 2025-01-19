@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Projeto de Detecção de Melanomas com Inteligência Artificial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+Este projeto utiliza inteligência artificial para detectar melanomas extensivos superficiais em imagens, ajudando na identificação precoce de possíveis casos de câncer de pele. A aplicação foi desenvolvida para ser uma ferramenta útil no apoio à análise dermatológica, proporcionando resultados rápidos e precisos para os profissionais da saúde.
 
-In the project directory, you can run:
+Eu contribui para o desenvolvimento do sistema da inteligência artificial e da landing page do projeto, utilizando tecnologias como **React**, **JavaScript** e **CSS**.
 
-### `npm start`
+Autoras do projeto científico: **Júlia Calcagno Mayer** e **Isabelly Marques**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Biblioteca para construção da interface de usuário.
+- **JavaScript**: Linguagem de programação para desenvolvimento da lógica e interatividade.
+- **CSS**: Linguagem de estilização para a formatação visual da aplicação.
 
-### `npm test`
+## Como Executar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para rodar o projeto localmente, siga os seguintes passos:
 
-### `npm run build`
+1. Clone o repositório:
+   ```bash
+   git clone <URL-do-repositório>
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd nome-do-diretório
+3. Instale as dependências:
+   ```bash
+   npm install
+4. Execute o servidor de desenvolvimento:
+   ```bash
+   npm start
+5. A aplicação estará disponível em http://localhost:3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Funcionalidades
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Detecção automatizada de melanomas extensivos superficiais por meio de inteligência artificial.
+- Interface amigável e de fácil uso para visualização dos resultados.
+- Landing page do projeto com informações sobre os melanomas extensivos superficiais.
 
-### `npm run eject`
+Você pode acessar o site do projeto em: [https://devleonardok.github.io/melanoma-ai/](https://devleonardok.github.io/melanoma-ai/).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Licença
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este projeto está sob a licença MIT.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
