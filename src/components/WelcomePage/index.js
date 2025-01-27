@@ -49,14 +49,14 @@ export const WelcomePage = () => {
   return (
     <>
       <WelcomeSection>
-        <WelcomeTitle>Seja muito bem-vindo</WelcomeTitle>
+        <WelcomeTitle>You're very welcome</WelcomeTitle>
         <WelcomeText>
-          Este site tem a finalidade de compartilhar as principais informações
-          referentes ao Melanoma Extensivo Superficial, além de apresentar um
-          modelo de Rede Neural Convolucional Profunda treinada para
-          diagnosticar a doença com imagens dermatoscópias, melhorando a
-          compreensão da doença, evitando falsos negativos e falsos positivos, e
-          assim enriquecendo cada vez mais o trabalho dos médicos na área.
+          The purpose of this website is to share the main information regarding
+          Superficial Extensive Melanoma, as well as to present a Deep
+          Convolutional Neural Network model trained to diagnose the disease
+          with dermoscopic images, improving understanding of the disease,
+          avoiding false negatives and false positives, and thus enriching the
+          work of doctors in the field.
         </WelcomeText>
       </WelcomeSection>
     </>

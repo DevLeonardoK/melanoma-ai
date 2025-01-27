@@ -78,28 +78,27 @@ export const BenefectsPage = () => {
   return (
     <>
       <BenefectsSection>
-        <BenefectsTitleText>Quais os benefícios da IA?</BenefectsTitleText>
+        <BenefectsTitleText>What are the benefits of AI?</BenefectsTitleText>
         <BenefectInfoSection>
           <BenefectAreaInfo>
             <BenefectAreaInfoImg src={BenefectImg2}></BenefectAreaInfoImg>
 
             <BenefectAreaText>
-              <BenefectAreaInfoTitleText>Agilidade </BenefectAreaInfoTitleText>
+              <BenefectAreaInfoTitleText>Agility </BenefectAreaInfoTitleText>
               <BenefectAreaInfoText>
-                As redes Neurals convolucionais Profundas. Possuem uma rapidez
-                inegociável diante da sua estrutura similar a de nós seres
-                humanos, contribuindo para um agnóstico em menos de 10 segundos.
+                Deep convolutional neural networks. They have a non-negotiable
+                speed due to their structure similar to that of us human beings,
+                contributing to an agnostic in less than 10 seconds.
               </BenefectAreaInfoText>
             </BenefectAreaText>
           </BenefectAreaInfo>
           <BenefectAreaInfo>
             <BenefectAreaInfoImg src={BenefectImg3}></BenefectAreaInfoImg>
             <BenefectAreaText>
-              <BenefectAreaInfoTitleText>Presteza </BenefectAreaInfoTitleText>
+              <BenefectAreaInfoTitleText>Promptness </BenefectAreaInfoTitleText>
               <BenefectAreaInfoText>
-                Rel comorovado cientificamente que a Inteligência Artificial
-                possui uma agilidade extrema para compreender algoritmos e
-                números.
+                Artificial Intelligence has been scientifically proven to be
+                extremely agile at understanding algorithms and numbers.
               </BenefectAreaInfoText>
             </BenefectAreaText>
           </BenefectAreaInfo>
@@ -107,13 +106,13 @@ export const BenefectsPage = () => {
             <BenefectAreaInfoImg src={BenefectImg1}></BenefectAreaInfoImg>
             <BenefectAreaText>
               <BenefectAreaInfoTitleText>
-                Aprimoramento do sistema de saúde
+                Improving the health system
               </BenefectAreaInfoTitleText>
               {/* <BenefectAreaInfoTitleText>saúde</BenefectAreaInfoTitleText> */}
               <BenefectAreaInfoText>
-                Este recurso tem a finalidade restrita de ser utilizado por
-                médicos, pois foram utilizadas imagens as quais somente estes
-                profisisonais possuem acesso.
+                The purpose of this resource is restricted to use by doctors, as
+                images have been used that only these professionals have access
+                to.
               </BenefectAreaInfoText>
             </BenefectAreaText>
           </BenefectAreaInfo>

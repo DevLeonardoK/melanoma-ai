@@ -9,7 +9,6 @@ export const InitialContainer = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  // background-color: black
   background-image: url(${backgroundInitial});
   background-repeat: no-repeat;
   background-size: cover;

@@ -36,8 +36,8 @@ export const SectionInitial = () => {
     <>
       <Section>
         <Text>
-          Deetecção de melanomas extensivos superficiais realizada pela IA
-          (Redes Neurais Convulacionais Profundas)
+          Detection of extensive superficial melanomas by AI (Deep Convolutional
+          Neural Networks)
         </Text>
         <NameText>ISABELLY HELOISA MARQUES AND JÚLIA CALCAGNO MAYER </NameText>
       </Section>

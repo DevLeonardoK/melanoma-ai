@@ -176,47 +176,44 @@ export const ExplicationPage = () => {
       <SectionGeral id="SectionGeral">
         <PageOne id="PageOne">
           <PageOneTitleText>
-            O que é um Melanoma Extensivo Superficial?
+            What is an Extensive Superficial Melanoma?
           </PageOneTitleText>
           <PageOneTextInfo>
-            O melanoma expansivo superficial, como também é conhecido,
-            encontra-se sobre um nevo existente, que são pequenas lesões
-            cutâneas, crescendo de forma radial, e assim acaba invadindo a
-            camada dérmica da pele. A forma mais comum de ambos os sexos, tanto
-            o feminino como o masculino de formar o MES (Melanoma Extensivo
-            Superficial) é a exposição temporária ao sol sem proteção solar,
-            pelo fato dos melanomas incidirem nos homens no tronco e nas
-            mulheres nos membros inferiores, de acordo com Dimatos et al, 2009,
-            p. 15
+            Superficial expansive melanoma, as it is also known, is found on top
+            of an existing nevus, which are small skin lesions that grow
+            radially, invading the dermal layer of the skin. The most common way
+            for both males and females to form MES (Superficial Extensive
+            Melanoma) is temporary exposure to the sun without sun protection,
+            due to the fact that melanomas occur in men on the trunk and in
+            women on the lower limbs, according to Dimatos et al, 2009, p. 15.
           </PageOneTextInfo>
           <ButtonClose onClick={fechar}>X</ButtonClose>
         </PageOne>
         <PageTwo id="PageTwo">
           <PageTwoTitleText>
-            Acho que tenho melanoma, o que eu faço agora?
+            I think I have melanoma, what do I do now?
           </PageTwoTitleText>
           <PageTwoTextInfo>
-            Se você verificar pintas suspeitas pelo corpo e estiver com suspeita
-            de ter o melanoma extensivo superficial primeiramente deve-se
-            procurar ajuda médica e proteger-se do sol, buscando assim um
-            tratamento para o próprio.
+            If you see suspicious spots on your body and are suspected of having
+            superficial extensive melanoma, you should first seek medical help
+            and protect yourself from the sun in order to seek treatment.
           </PageTwoTextInfo>
           <ButtonClose onClick={fechar}>X</ButtonClose>
         </PageTwo>
         <TitleExplicationText id="TitleExplicationText">
-          Melanoma Extensivo Superficial
+          Superficial Extensive Melanoma
         </TitleExplicationText>
         <SectionCardsExplication id="SectionCardsExplication">
           <CardExplication>
             <ImageArea src={ImgMelanoma1}></ImageArea>
             <InformationButton id="FirstBtn" onClick={mudarFirst}>
-              O que é um Melanoma Extensivo Superficial?
+              What is an Extensive Superficial Melanoma?
             </InformationButton>
           </CardExplication>
           <CardExplication>
             <ImageArea src={ImgMelanoma2}></ImageArea>
             <InformationButton id="SecondBtn" onClick={mudarSecond}>
-              Acho que tenho melanoma, o que eu faço agora?
+              I think I have melanoma, what do I do now?
             </InformationButton>
           </CardExplication>
         </SectionCardsExplication>
