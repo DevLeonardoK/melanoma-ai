@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/melanoma-ai/static/css/main.0b5d2914.css",
-    "main.js": "/melanoma-ai/static/js/main.20014a85.js",
+    "main.js": "/melanoma-ai/static/js/main.93fe10d7.js",
     "static/media/BenefectImg3.jpeg": "/melanoma-ai/static/media/BenefectImg3.de4b9a3f06e1d31b06c2.jpeg",
     "static/media/2.jpg": "/melanoma-ai/static/media/2.d8d4192f88e4f93d1747.jpg",
     "static/media/imgAbout.jpeg": "/melanoma-ai/static/media/imgAbout.22f3634c1314f3c86f1c.jpeg",
@@ -11,10 +11,10 @@
     "static/media/BenefectImg2.jpeg": "/melanoma-ai/static/media/BenefectImg2.96078b3e9272bcba17d5.jpeg",
     "index.html": "/melanoma-ai/index.html",
     "main.0b5d2914.css.map": "/melanoma-ai/static/css/main.0b5d2914.css.map",
-    "main.20014a85.js.map": "/melanoma-ai/static/js/main.20014a85.js.map"
+    "main.93fe10d7.js.map": "/melanoma-ai/static/js/main.93fe10d7.js.map"
   },
   "entrypoints": [
     "static/css/main.0b5d2914.css",
-    "static/js/main.20014a85.js"
+    "static/js/main.93fe10d7.js"
   ]
 }
