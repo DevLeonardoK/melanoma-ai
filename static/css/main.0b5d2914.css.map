@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.0b5d2914.css","mappings":"AAAA,EAEE,qBAAsB,CADtB,QAAS,CAET,sBACF,CAEA,WACE,SACF","sources":["App.css"],"sourcesContent":["* {\n  margin: 0;\n  box-sizing: border-box;\n  scroll-behavior: smooth;\n}\n\n.TextTitle {\n  color: red;\n}\n"],"names":[],"sourceRoot":""}
