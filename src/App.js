@@ -2,7 +2,6 @@ import "./App.css";
 import React from "react";
 import { InitialContainer } from "./components/InitialContainer";
 import { SectionInitial } from "./components/PageInitial";
-import { WelcomeContainer } from "./components/WelcomeContainer";
 import { WelcomePage } from "./components/WelcomePage";
 import { AboutContainer } from "./components/AboutContainer";
 import { AboutPage } from "./components/AboutPage";
@@ -13,16 +12,13 @@ import { BenefectsPage } from "./components/BenefectsPage";
 import { ResultsContainer } from "./components/ResultsContainer";
 import { ResultsPage } from "./components/ResultsPage";
 
-
 function App() {
   return (
     <div className="App">
       <InitialContainer>
         <SectionInitial></SectionInitial>
       </InitialContainer>
-      <WelcomeContainer>
-        <WelcomePage></WelcomePage>
-      </WelcomeContainer>
+      <WelcomePage></WelcomePage>
       <AboutContainer>
         <AboutPage></AboutPage>
       </AboutContainer>
@@ -32,9 +28,6 @@ function App() {
       <BenefectsContainer>
         <BenefectsPage></BenefectsPage>
       </BenefectsContainer>
-      <ResultsContainer>
-        <ResultsPage></ResultsPage>
-      </ResultsContainer>
     </div>
   );
 }
