@@ -3,9 +3,7 @@ import React from "react";
 import { InitialContainer } from "./components/InitialContainer";
 import { SectionInitial } from "./components/PageInitial";
 import { WelcomePage } from "./components/WelcomePage";
-import { AboutContainer } from "./components/AboutContainer";
 import { AboutPage } from "./components/AboutPage";
-import { ExplicationContainer } from "./components/ExplicationContainer";
 import { ExplicationPage } from "./components/ExplicationPage";
 import { BenefectsContainer } from "./components/BenefectsContainer";
 import { BenefectsPage } from "./components/BenefectsPage";
@@ -19,12 +17,11 @@ function App() {
         <SectionInitial></SectionInitial>
       </InitialContainer>
       <WelcomePage></WelcomePage>
-      <AboutContainer>
-        <AboutPage></AboutPage>
-      </AboutContainer>
-      <ExplicationContainer>
-        <ExplicationPage></ExplicationPage>
-      </ExplicationContainer>
+
+      <AboutPage></AboutPage>
+
+      <ExplicationPage></ExplicationPage>
+
       <BenefectsContainer>
         <BenefectsPage></BenefectsPage>
       </BenefectsContainer>
