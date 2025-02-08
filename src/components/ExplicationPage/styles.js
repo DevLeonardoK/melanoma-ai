@@ -176,7 +176,7 @@ const ButtonClose = styled.button`
 `;
 const PageTwo = styled.section`
   width: 75%;
-  height: 70vh;
+  height: 85vh;
   background-color: #f4f1ed;
   border: 1px solid black;
   display: none;

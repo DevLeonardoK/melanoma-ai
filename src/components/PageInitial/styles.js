@@ -1,6 +1,20 @@
 import styled from "styled-components";
+import backgroundInitial from "./assets/2.jpg";
 
-export const Section = styled.section`
+const InitialContainer = styled.div`
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(${backgroundInitial});
+  background-repeat: no-repeat;
+  background-size: cover;
+`;
+
+const Section = styled.section`
   text-align: center;
   width: 75vw;
   margin: 0;
@@ -21,7 +35,7 @@ export const Section = styled.section`
   }
 `;
 
-export const Text = styled.h1`
+const Text = styled.h1`
   color: #fff;
   font-family: "Radley";
   font-size: 3rem;
@@ -34,10 +48,11 @@ export const Text = styled.h1`
     text-align: center;
     font-weight: 500;
     text-align: center;
+    font-family: "Carlito";
   }
 `;
 
-export const NameText = styled.h2`
+const NameText = styled.h2`
   color: white;
   font-family: "Radley";
   font-size: 2rem;
@@ -50,3 +65,5 @@ export const NameText = styled.h2`
     text-align: center;
   }
 `;
+
+export { InitialContainer, NameText, Section, Text };
