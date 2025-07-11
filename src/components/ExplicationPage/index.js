@@ -1,6 +1,9 @@
 import styled from "styled-components";
 import ImgMelanoma1 from "./img/imgMelanoma1.jpeg";
 import ImgMelanoma2 from "./img/imgMelanoma2.jpeg";
+import ImgMelanoma3 from "./img/nodular.png"
+import ImgMelanoma4 from "./img/acral.png"
+import ImgMelanoma5 from "./img/maligno.png"
 
 export const SectionGeral = styled.section`
   width: 100%;
@@ -134,89 +137,114 @@ export const PageTwoTextInfo = styled.p`
 `;
 
 function mudarFirst() {
-  var btn = document.getElementById("FirstBtn");
-  var sectionGeral = document.getElementById("SectionGeral");
-  var TitleExplicationText = document.getElementById("TitleExplicationText");
-  var SectionCardsExplication = document.getElementById(
-    "SectionCardsExplication"
-  );
-  var PageOne = document.getElementById("PageOne");
-  TitleExplicationText.style.display = "none";
-  SectionCardsExplication.style.display = "none";
-  PageOne.style.display = "flex";
-}
-
-function fechar() {
-  var PageTwo = document.getElementById("PageTwo");
-  var PageOne = document.getElementById("PageOne");
-  var TitleExplicationText = document.getElementById("TitleExplicationText");
-  var SectionCardsExplication = document.getElementById(
-    "SectionCardsExplication"
-  );
-  TitleExplicationText.style.display = "block";
-  SectionCardsExplication.style.display = "flex";
-  PageOne.style.display = "none";
-  PageTwo.style.display = "none";
+  document.getElementById("TitleExplicationText").style.display = "none";
+  document.getElementById("SectionCardsExplication").style.display = "none";
+  document.getElementById("PageOne").style.display = "flex";
 }
 
 function mudarSecond() {
-  var TitleExplicationText = document.getElementById("TitleExplicationText");
-  var SectionCardsExplication = document.getElementById(
-    "SectionCardsExplication"
-  );
-  var PageTwo = document.getElementById("PageTwo");
-  TitleExplicationText.style.display = "none";
-  SectionCardsExplication.style.display = "none";
-  PageTwo.style.display = "flex";
+  document.getElementById("TitleExplicationText").style.display = "none";
+  document.getElementById("SectionCardsExplication").style.display = "none";
+  document.getElementById("PageTwo").style.display = "flex";
+}
+
+function mudarThird() {
+  document.getElementById("TitleExplicationText").style.display = "none";
+  document.getElementById("SectionCardsExplication").style.display = "none";
+  document.getElementById("PageThree").style.display = "flex";
+}
+
+function mudarFourth() {
+  document.getElementById("TitleExplicationText").style.display = "none";
+  document.getElementById("SectionCardsExplication").style.display = "none";
+  document.getElementById("PageFour").style.display = "flex";
+}
+
+function fechar() {
+  document.getElementById("TitleExplicationText").style.display = "block";
+  document.getElementById("SectionCardsExplication").style.display = "flex";
+  document.getElementById("PageOne").style.display = "none";
+  document.getElementById("PageTwo").style.display = "none";
+  document.getElementById("PageThree").style.display = "none";
+  document.getElementById("PageFour").style.display = "none";
 }
 
 export const ExplicationPage = () => {
   return (
     <>
       <SectionGeral id="SectionGeral">
+
+        {/* Modal 1 */}
         <PageOne id="PageOne">
           <PageOneTitleText>
             O que é um Melanoma Extensivo Superficial?
           </PageOneTitleText>
           <PageOneTextInfo>
-            O melanoma expansivo superficial, como também é conhecido,
-            encontra-se sobre um nevo existente, que são pequenas lesões
-            cutâneas, crescendo de forma radial, e assim acaba invadindo a
-            camada dérmica da pele. A forma mais comum de ambos os sexos, tanto
-            o feminino como o masculino de formar o MES (Melanoma Extensivo
-            Superficial) é a exposição temporária ao sol sem proteção solar,
-            pelo fato dos melanomas incidirem nos homens no tronco e nas
-            mulheres nos membros inferiores, de acordo com Dimatos et al, 2009,
-            p. 15
+            É o tipo mais comum. Ele cresce principalmente na superfície da pele (horizontalmente) por um tempo antes de se aprofundar. Geralmente, aparece como uma mancha irregular, plana ou ligeiramente elevada, com variação de cores (marrom, preto, azul, rosa).
+Melanoma Nodular
           </PageOneTextInfo>
           <ButtonClose onClick={fechar}>X</ButtonClose>
         </PageOne>
+
+        {/* Modal 2 */}
         <PageTwo id="PageTwo">
-          <PageTwoTitleText>
-            Acho que tenho melanoma, o que eu faço agora?
-          </PageTwoTitleText>
+          <PageTwoTitleText>O que é o Melanoma Nodular?</PageTwoTitleText>
           <PageTwoTextInfo>
-            Se você verificar pintas suspeitas pelo corpo e estiver com suspeita
-            de ter o melanoma extensivo superficial primeiramente deve-se
-            procurar ajuda médica e proteger-se do sol, buscando assim um
-            tratamento para o próprio.
+            É mais agressivo e cresce rapidamente para dentro da pele (verticalmente) desde o início, como um nódulo. Pode ser uma elevação firme, em forma de cúpula, de cor escura (preta, azul, marrom) ou até avermelhada ou da cor da pele.
           </PageTwoTextInfo>
           <ButtonClose onClick={fechar}>X</ButtonClose>
         </PageTwo>
+
+        {/* Modal 3 */}
+        <PageOne id="PageThree">
+          <PageOneTitleText>O que é o Melanoma Lentiginoso Acral?</PageOneTitleText>
+          <PageOneTextInfo>
+            É um tipo raro que ocorre nas palmas das mãos, solas dos pés e debaixo das unhas. Diferente dos outros, não está diretamente relacionado à exposição solar. Pode aparecer como uma mancha escura ou estria nas unhas, muitas vezes sendo diagnosticado tardiamente.
+          </PageOneTextInfo>
+          <ButtonClose onClick={fechar}>X</ButtonClose>
+        </PageOne>
+
+        {/* Modal 4 */}
+        <PageTwo id="PageFour">
+          <PageTwoTitleText>O que é o Melanoma Lentigo Maligno?</PageTwoTitleText>
+          <PageTwoTextInfo>
+Aparece principalmente em áreas da pele cronicamente expostas ao sol, como rosto e pescoço, em pessoas mais velhas. Começa como uma mancha irregular e lentamente crescente, de coloração variada, que pode levar anos para se tornar invasiva. Quando invasivo, é chamado de lentigo maligno melanoma.
+          </PageTwoTextInfo>
+          <ButtonClose onClick={fechar}>X</ButtonClose>
+        </PageTwo>
+
+        {/* Texto título geral */}
         <TitleExplicationText id="TitleExplicationText">
-          Melanoma Extensivo Superficial
+          Tipos de Melanoma
         </TitleExplicationText>
+
+        {/* Cards */}
         <SectionCardsExplication id="SectionCardsExplication">
           <CardExplication>
-            <ImageArea src={ImgMelanoma1}></ImageArea>
+            <ImageArea src={ImgMelanoma1} />
             <InformationButton id="FirstBtn" onClick={mudarFirst}>
               O que é um Melanoma Extensivo Superficial?
             </InformationButton>
           </CardExplication>
+
           <CardExplication>
-            <ImageArea src={ImgMelanoma2}></ImageArea>
+            <ImageArea src={ImgMelanoma3} />
             <InformationButton id="SecondBtn" onClick={mudarSecond}>
-              Acho que tenho melanoma, o que eu faço agora?
+              O que é o Melanoma Nodular?
+            </InformationButton>
+          </CardExplication>
+
+          <CardExplication>
+            <ImageArea src={ImgMelanoma4} />
+            <InformationButton onClick={mudarThird}>
+              O que é o Melanoma Lentiginoso Acral?
+            </InformationButton>
+          </CardExplication>
+
+          <CardExplication>
+            <ImageArea src={ImgMelanoma5} />
+            <InformationButton onClick={mudarFourth}>
+              O que é o Melanoma Lentigo Maligno?
             </InformationButton>
           </CardExplication>
         </SectionCardsExplication>

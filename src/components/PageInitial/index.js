@@ -36,10 +36,9 @@ export const SectionInitial = () => {
     <>
       <Section>
         <Text>
-          Deetecção de melanomas extensivos superficiais realizada pela IA
-          (Redes Neurais Convulacionais Profundas)
+           A Funcionalidade e a Execução das Redes Neurais Convolucionais Profundas na detecção e no diagnóstico dos principais tipos de melanomas (MES, MLA, MLM, MN) - fase III
         </Text>
-        <NameText>ISABELLY HELOISA MARQUES E JÚLIA CALCAGNO MAYER </NameText>
+        <NameText>JÚLIA CALCAGNO MAYER E ISABELLY HELOISA MARQUES</NameText>
       </Section>
     </>
   );

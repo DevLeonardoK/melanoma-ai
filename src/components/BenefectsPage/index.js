@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import BenefectImg1 from "./img/BenefectImg1.jpeg";
+import BenefectImg1 from "./img/presteza.jpg";
 import BenefectImg2 from "./img/BenefectImg2.jpeg";
-import BenefectImg3 from "./img/BenefectImg3.jpeg";
+import BenefectImg3 from "./img/agilidade.jpg";
 
 export const BenefectsSection = styled.section`
   display: flex;
@@ -86,9 +86,7 @@ export const BenefectsPage = () => {
             <BenefectAreaText>
               <BenefectAreaInfoTitleText>Agilidade </BenefectAreaInfoTitleText>
               <BenefectAreaInfoText>
-                As redes Neurals convolucionais Profundas. Possuem uma rapidez
-                inegociável diante da sua estrutura similar a de nós seres
-                humanos, contribuindo para um agnóstico em menos de 10 segundos.
+                As Redes Neurais Convolucionais Profundas possuem uma velocidade extremamente rápida devido à sua estrutura "neurológica" semelhante à nossa, contribuindo para uma resposta em menos de 5 segundos.
               </BenefectAreaInfoText>
             </BenefectAreaText>
           </BenefectAreaInfo>
@@ -97,9 +95,7 @@ export const BenefectsPage = () => {
             <BenefectAreaText>
               <BenefectAreaInfoTitleText>Presteza </BenefectAreaInfoTitleText>
               <BenefectAreaInfoText>
-                Rel comorovado cientificamente que a Inteligência Artificial
-                possui uma agilidade extrema para compreender algoritmos e
-                números.
+                Cientificamente foi comprovado que a Inteligência Artificial é extremamente ágil na compreensão de algoritmos numéricos, além de obter essas respostas de maneira precisa com números e algarismos.
               </BenefectAreaInfoText>
             </BenefectAreaText>
           </BenefectAreaInfo>
@@ -111,9 +107,8 @@ export const BenefectsPage = () => {
               </BenefectAreaInfoTitleText>
               {/* <BenefectAreaInfoTitleText>saúde</BenefectAreaInfoTitleText> */}
               <BenefectAreaInfoText>
-                Este recurso tem a finalidade restrita de ser utilizado por
-                médicos, pois foram utilizadas imagens as quais somente estes
-                profisisonais possuem acesso.
+A o médico utilizando a IA em conjunto com a dermatoscopia, sobe o percentual de acerto de 85% para 95% quando comparado ao diagnóstico clínico tradicional.
+
               </BenefectAreaInfoText>
             </BenefectAreaText>
           </BenefectAreaInfo>

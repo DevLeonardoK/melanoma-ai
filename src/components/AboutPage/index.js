@@ -87,19 +87,10 @@ export const AboutPage = () => {
           <TitleText>SOMOS NÓS?</TitleText>
         </TitleTextSection>
         <AboutInfoText>
-          Nosso modelo de Rede Neural Convolucional Profunda se iniciou em um
-          projeto da feira científica FEICIPAZ do Colégio Sinodal da Paz, RS,
-          Novo Hamburgo, o qual as alunas do Ensino Médio, Júlia Calcagno Mayer
-          e Isabelly Heloisa Marques participaram com o auxílio da orientadora
-          da pesquisa, Gabriela Soares Castilhos e a coorientadora, Natalia
-          Maynart Cadó.
+          Nosso modelo de Rede Neural Convolucional Profundas começou como parte de um projeto para a feira de ciências FEICIPAZ no Colégio Sinodal da Paz, RS, Novo Hamburgo, no qual as estudantes do ensino médio Júlia Calcagno Mayer e Isabelly Heloisa Marques participaram com o auxílio da orientadora da pesquisa Gabriela Soares Castilhos e da coorientadora Natalia Maynart Cadó. 
         </AboutInfoText>
         <AboutInfoText>
-          Este projeto se iniciou em 2023, o qual iniciamos a fase I do projeto
-          realizando uma pesquisa abrangente sobre como funcionava a
-          Inteligência Artificial no diagnóstico, já na fase II, em 2024
-          realizamos o treinamento de um modelo de Rede Neural Convolucional
-          Profunda para a detecção dos melanomas extensivos superficiais.
+          Este projeto começou em 2023, quando iniciamos a fase I do projeto realizando uma pesquisa abrangente sobre como a Inteligência Artificial funcionava no diagnóstico, enquanto na fase II, em 2024, treinamos o modelo de Redes Neurais Convolucionais Profundas para a detecção de melanomas extensivos superficiais. Por fim, na fase III do projeto, diante de tanto reconhecimento e prestígio recebido ao nosso projeto científico, decidimos implementar mais três tipos de melanomas muito recorrentes no Brasil, com o objetivo de aprimorar cada vez mais nossa pesquisa.
         </AboutInfoText>
       </AboutSection>
       <AboutSectionImage>

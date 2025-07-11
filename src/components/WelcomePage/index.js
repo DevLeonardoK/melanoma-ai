@@ -51,12 +51,8 @@ export const WelcomePage = () => {
       <WelcomeSection>
         <WelcomeTitle>Seja muito bem-vindo</WelcomeTitle>
         <WelcomeText>
-          Este site tem a finalidade de compartilhar as principais informações
-          referentes ao Melanoma Extensivo Superficial, além de apresentar um
-          modelo de Rede Neural Convolucional Profunda treinada para
-          diagnosticar a doença com imagens dermatoscópias, melhorando a
-          compreensão da doença, evitando falsos negativos e falsos positivos, e
-          assim enriquecendo cada vez mais o trabalho dos médicos na área.
+          O objetivo deste site é compartilhar as principais informações sobre os principais tipos de melanomas, assim como apresentar um modelo de Rede Neural Convolucional Profunda treinado para diagnosticar a doença com imagens dermatoscópicas, melhorando a compreensão da doença, evitando falsos negativos e falsos positivos, e assim enriquecendo o trabalho dos médicos na área.
+
         </WelcomeText>
       </WelcomeSection>
     </>
